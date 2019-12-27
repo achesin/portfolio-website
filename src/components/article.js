@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styles from './article.module.scss'
+import '../styles/global.css'
+
 //whole article is clickable
 export default (props) => (
     <Link to={props.to}> 
-        <article className={styles.articleBox} key={props.id}>
-            <div className={styles.left}>
+        <article class="article-box" key={props.id}>
+            <div class="left">
                 <img src={'https://source.unsplash.com/150x150/?' + props.keywords} alt={props.keywords}/>
             </div>
-            <div className={styles.right}>
+            <div class="right">
                 <h3>
                     {props.title}
                 </h3>
-                <div className={styles.date}>
+                <div class="date">
                     {props.date}
                 </div>
                 <div>
