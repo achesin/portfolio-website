@@ -6,14 +6,14 @@ import '../styles/global.css'
 export default() => (
   <div>
     <figure class="port-item">
-			<img src={require("../images/arizona.jpg")} width="600" height="400" alt="Lead Singer of AZ"></img>
+			<img src={require("../images/zona.jpg")} width="600" height="400" alt="Lead Singer of AZ"></img>
 			<figcaption class="port-desc">
 				<p>A R I Z O N A 5.29.19</p>
-				<a href="/" class="button button-accent button-small">Full Portfolio</a>
+				<a href="/arizona-band/" class="button button-accent button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
   <figure class="port-item">
-			<img src={require("../images/col.jpg")} width="600" height="400" alt="Full band shot"></img>
+			<img src={require("../images/colony.jpg")} width="600" height="400" alt="Full band shot"></img>
 			<figcaption class="port-desc">
 				<p>Colony House 4.3.19</p>
 				<a href="/" class="button button-accent button-small">Full Portfolio</a>
@@ -23,11 +23,11 @@ export default() => (
 			<img src={require("../images/mary.jpg")} width="600" height="400" alt="Full band shot"></img>
 			<figcaption class="port-desc">
 				<p>Mary Antonini</p>
-				<a href="/" class="button button-accent button-small">Full Portfolio</a>
+				<a href="/mary-antonini/" class="button button-accent button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
   <figure class="port-item">
-			<img src={require("../images/mandy.jpg")} width="600" height="400" alt="Mandy Lee of Misterwives"></img>
+			<img src={require("../images/mistah.jpg")} width="600" height="400" alt="Mandy Lee of Misterwives"></img>
 			<figcaption class="port-desc">
 				<p>Misterwives 11.12.19</p>
 				<a href="/" class="button button-accent button-small">Full Portfolio</a>
@@ -41,9 +41,9 @@ export default() => (
 			</figcaption>
 	</figure>
   <figure class="port-item">
-			<img src={require("../images/win.jpg")} width="600" height="400" alt="Win onstage"></img>
+			<img src={require("../images/fernell.jpg")} width="600" height="400" alt="Fernell at the court"></img>
 			<figcaption class="port-desc">
-				<p>Win and Woo 3.22.19</p>
+				<p>Fernell Hogan</p>
 				<a href="/" class="button button-accent button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
