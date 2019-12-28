@@ -1,14 +1,10 @@
 ---
-title: "A R I Z O N A 5.29.19"
+title: "A R I Z O N A"
 date: "2019-05-29"
 image: ../images/arizona.jpg
 keywords: "arizona"
 ---
 
-#If you are reading this, you know Gatsby is awesome!
+#A R I Z O N A
 
-Hi Jaileen! Dolore anim duis enim sint elit et dolor pariatur ipsum anim dolor et consequat velit. Incididunt proident sunt Lorem nostrud amet. Enim culpa sunt sunt laboris. Eu excepteur enim consectetur amet do in ullamco dolore velit magna. Sunt nisi qui nostrud qui.
-
-Aliquip elit ea reprehenderit in do laborum exercitation enim nisi cupidatat. Incididunt occaecat Lorem consectetur dolor aliquip mollit qui exercitation. Commodo proident ex nisi et cillum laboris id est dolore. In ex commodo aute ut cillum ex. Ipsum voluptate Lorem sunt sint. Dolore mollit sit cupidatat amet nisi.
-
-Cillum sint consequat nulla nulla. Ipsum officia occaecat anim ipsum eu deserunt. Reprehenderit nulla pariatur dolore laborum voluptate adipisicing laboris voluptate est ex. Laborum nulla ullamco qui veniam aute occaecat sint do. Commodo est nostrud sit reprehenderit pariatur velit excepteur nisi fugiat. Sunt Lorem occaecat laboris officia. Ea cupidatat proident fugiat laborum labore aliquip voluptate mollit ad consectetur nulla ipsum do.
+I was able to photograph ARIZONA at the Van Buren in Phoenix, Arizona when they headlined on April 3rd, 2019. I've become good friends with their tour manager and I am very grateful for the opportunity to have shot this show. Here's the pics, all were taken on a Canon T3i with a 50mmm f/1.8 lens.

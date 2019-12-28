@@ -1,14 +1,10 @@
 ---
-title: "MUNA 10.10.19"
+title: "MUNA"
 date: "2019-10-10"
 image: ../images/arizona.jpg
 keywords: "muna, music hall of williamsburg"
 ---
 
-#Learn why React is so powerful
+#MUNA
 
-Sint voluptate ex anim id ullamco duis quis. Ea excepteur sit ex quis eiusmod culpa nulla in non dolor magna laboris aute cupidatat. Exercitation ut Lorem aliqua sunt aliqua adipisicing laboris sit irure eu reprehenderit et sint. Et reprehenderit consectetur eu pariatur est consectetur laboris in id. Voluptate enim deserunt duis tempor velit non tempor excepteur reprehenderit veniam officia incididunt eu. Occaecat tempor enim amet proident voluptate nisi et.
-
-Deserunt culpa nostrud quis reprehenderit. Aute nisi proident et anim nostrud. Ipsum cillum consequat pariatur amet quis officia consectetur commodo dolore ex consectetur nisi tempor aute. Quis pariatur sint eu sit eiusmod quis occaecat magna aute cillum.
-
-Magna reprehenderit laboris aute incididunt dolor nisi. Et magna id reprehenderit qui proident. Officia dolore cillum reprehenderit voluptate amet ut sit labore exercitation reprehenderit non eiusmod ea cillum. Nisi amet pariatur aute consequat mollit officia ipsum magna consequat pariatur veniam Lorem. Laborum sit adipisicing nostrud do. Pariatur exercitation proident nisi ut veniam id incididunt sunt et cillum exercitation anim pariatur. In eu sunt occaecat nisi nisi ad est est officia proident ad ex cillum anim.
+I had such an amazing experience photographing MUNA at the Music Hall of Williamsburg in Brooklyn, New York for their headlining show on the Saves the World tour on October 10th, 2019. The first of two nights in the venue, I sang along to every song and left feeling so inspired. This band has an amazing energy and it is truly something special to witness. See the gallery below. Shot on a Canon 6D Mark II with a 50mm f/1.8 lens and a 25-105mm f/4.0 lens. Shot for Dissolving Film Magazine.

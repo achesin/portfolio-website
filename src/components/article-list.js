@@ -15,9 +15,6 @@ export default () => (
                   id
                   frontmatter {
                     title
-                    image {
-                      id
-                    }
                     keywords
                     date(formatString: "MMMM YYYY")
                   }

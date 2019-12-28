@@ -10,8 +10,7 @@ export default ({ data }) => {
    return (
       <div>
         <TalkingHeader />
-         <div class="container-post">
-            <div style={{ width: '100%', height: '200px', backgroundColor: '#fafafa', backgroundImage: 'Url(https://source.unsplash.com/960x200/?' + post.frontmatter.keywords + ')', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', marginBottom: '30px' }}></div>
+         <div class="container">
             <div class="content" dangerouslySetInnerHTML={{ __html: post.html }} />
          </div>
          <Footer />

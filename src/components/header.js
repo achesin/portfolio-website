@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
     <img src={require('../images/lee.jpg')} width="300" height="100" alt="I can lift a car lyrics" className="logo"/>
     <nav>
       <Link to="/" style={{color: `white`, textDecoration: `none`}}>Home</Link>
-      <Link to="/page-2" style={{color: `white`, textDecoration: `none`}}>About</Link>
+      <Link to="/about" style={{color: `white`, textDecoration: `none`}}>About</Link>
       <Link to="/portfolio" style={{color: `white`, textDecoration: `none`}}>Portfolio</Link>
       <a href="https://www.instagram.com/amandacphotog/" style={{color: `white`, textDecoration: `none`}}>Instagram</a>
       <Link to="/contact" style={{color: `white`, textDecoration: `none`}}>Contact</Link>

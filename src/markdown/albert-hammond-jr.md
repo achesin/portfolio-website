@@ -1,5 +1,5 @@
 ---
-title: "Albert Hammond, Jr. 3.7.19"
+title: "Albert Hammond, Jr."
 date: "2019-03-07"
 image: ../images/arizona.jpg
 keywords: "arizona"
