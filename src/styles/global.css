@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 
+/* 
+Dumbo (pink-ish orange) #E56A54
+Mandy (pink) #EDA29F
+Dusk (purple) #BFA5B8
+Arizona *blue) #00AFD7
+*/
+
 * {
 	box-sizing: border-box;
 	transition: all ease-in-out 250ms;
@@ -19,6 +26,11 @@ img {
 .container {
 	width: 95%;
 	max-width: 70em;
+	margin: 0 auto;
+}
+
+.container-about {
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -44,22 +56,31 @@ footer:after {
 [class^=col-] {
 	width: 100%;
 	margin-top: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .9rem;
 }
 
 [class^=col-]:first-child {
 	margin-top: 0;
 }
 
-.col-1 {
-	width: 33.333334%;
+.col-1 { /*adjustment for when it's at phone size*/
+	width: 50%;
 	float: left;
+	padding: .5em 0 1.5em 0;
 }
 
 @media(min-width: 40rem) {
 	[class^=col-] {
-		float: left;
-		padding: 0 .5em;
+		float: right;
+		padding: 1.5em .5em 1.5em .5em;
 		margin-top: 0;
+		font-weight: 900;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: .9rem;
 	}
 
 	[class^=col-]:first-child {
@@ -71,11 +92,12 @@ footer:after {
 	}
 
 	.col-3 {
-		width: 50%;
+		width: 70%;
 	}
 
 	.col-1 {
-		width: 16.6666%;
+		width: 15%;
+	
 	}
 }
 
@@ -113,6 +135,7 @@ p:last-of-type {
 
 .title-cta {
 	margin: 2em 0 .5em;
+	color: white;
 }
 
 .unstyled-list {
@@ -138,8 +161,13 @@ p:last-of-type {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-width: 2px;
+	border-radius: 10px;
 	border-style: solid;
 	padding: .5em 1.75em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .8rem;
 }
 
 @media (min-width: 60rem) {
@@ -154,25 +182,40 @@ p:last-of-type {
 }
 
 .button-accent {
-	color: #00AFD7;
+	color: #FFF;
+	background: #00AFD7;
 	border-color: #00AFD7;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-	background: #00AFD7;
-	color: #232323;
+	background: #FFF;
+	color: #00AFD7;
+	border-color: #FFF;
 }
 
 .button-dark {
-	color: #232323;
-	border-color: #232323;
+	color: #FFF;
+	background: #EDA29F;
+	border-color: #EDA29F;
 }
 
 .button-dark:hover,
 .button-dark:focus {
 	background: #232323;
+	color: #EDA29F;
+	border-color: #FFF;
+}
+
+.button-portfolio {
 	color: #00AFD7;
+	border-color: #00AFD7;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+	background: #00AFD7;
+	color: #232323;
 }
 
 /* header
@@ -241,7 +284,7 @@ nav a:focus {
 }
 
 .home-hero {
-	background-image: url(../images/backgroundkevin.jpg);
+	background-image: url(../images/backgroundwill.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
@@ -262,23 +305,23 @@ nav a:focus {
 ************************* */
 
 .home-about-textbox {
-	background-color: #232323;
+	background-color: #E56A54;
 	padding: 4em;
 	width: 100vw;
-	margin-left: -5%;
-	outline: 2px solid #00AFD7;
+	margin-left: -2.2%;
+	outline: 2px solid #FFF;
 	outline-offset: -2.5em;
 	color: #FFF;
 	position: relative;
 }
 
 .home-about-textbox h1 {
-	color: #00AFD7;
+	color: #FFF;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	top: .75em;
-	background: #232323;
+	background: #E56A54;
 	padding: 0 .1em;
 }
 
@@ -301,15 +344,19 @@ nav a:focus {
 	.home-about {
 		background-image: url(../images/win.jpg);
 		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		padding-bottom: 4em;
 	}
 
+	/* how to adjust where the box is as a whole when the screen is large
+	*/
 	.home-about-textbox {
 		width: 50%;
 		padding: 7em;
 		outline-offset: -3.75em;
-		margin-left: -2.5%;
-		top: -3em;
+		margin-left: 3.5%;
+		top: -5em;
 		text-align: left;
 		box-shadow: 0 0 3em 0 rgba(0, 0, 0, .3);
 	}
@@ -483,7 +530,7 @@ input[type=text],input[type=email], select, textarea {
 
 .cta {
 	background-color: #00AFD7;
-	padding: 5em 0;
+	padding: 5em 0 0 0;
 }
 
 
