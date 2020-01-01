@@ -4,7 +4,8 @@
   "description": "Amanda Chesin Photography Website",
   "version": "0.1.0",
   "engines": {
-    "node": "10.7.0"
+    "node": "10.7.0",
+    "yarn": "^1.2.1"
   },
   "author": "Amanda Chesin <amandarcphotog@gmail.com>",
   "dependencies": {
