@@ -3,6 +3,9 @@
   "private": true,
   "description": "Amanda Chesin Photography Website",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.7.0"
+  }
   "author": "Amanda Chesin <amandarcphotog@gmail.com>",
   "dependencies": {
     "gatsby": "^2.18.12",
@@ -41,8 +44,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "scripts": {
-    "build": "gatsby build"
   }
 }
