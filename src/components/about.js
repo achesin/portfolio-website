@@ -5,10 +5,10 @@ export default() => (
 	<div class="container-about">
 		<section class="home-about">
 			<div class="home-about-textbox">
-				<h1>Welcome</h1>
-				<p>Hello welcome to my website for my photography. I am an NYC based photographer. I am making this website from scratch to become a better software enginner and to show off my photos because I am very proud of them.</p>
-				<p><strong>I want to help capture your joy.</strong> Let's make it happen. Hit me up for a photo session or a quick photo shoot or to photograph your concert. I have done it all and would love to do it with you!</p>
-				<a href="/" class="button button-accent"> See My Work</a>
+				<h1>WELCOME</h1>
+				<p>Hey there, I'm Amanda! By day, I'm a computer programmer in NYC and by night I capture the sound of the city. This website is not only a way to showcase my photography, but also a way to work on my programming skills (I coded the site!).</p>
+				<p><strong>Ready to capture the sound of your life?</strong> Let's make it happen. Hit me up for a session or a quick shoot.</p>
+				<a href="/" class="button button-accent">Schedule a Sesh!</a>
 			</div>
 		</section>
 	</div>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /* 
 Dumbo (pink-ish orange) #E56A54
 Mandy (pink) #EDA29F
@@ -14,7 +14,7 @@ Arizona *blue) #00AFD7
 
 body {
 	margin: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
 
@@ -41,6 +41,7 @@ img {
 	position: relative;
 	padding-bottom: 100px;
 }
+
 .clearfix::after,
 section::after,
 footer:after {
@@ -59,12 +60,15 @@ footer:after {
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: .9rem;
+	font-size: 1.33rem;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
 }
 
 [class^=col-]:first-child {
 	margin-top: 0;
 }
+
 
 .col-1 { /*adjustment for when it's at phone size*/
 	width: 50%;
@@ -72,15 +76,18 @@ footer:after {
 	padding: .5em 0 1.5em 0;
 }
 
-@media(min-width: 40rem) {
+@media(min-width: 45rem) { /*adjustment at full screen*/
 	[class^=col-] {
-		float: right;
+		float: left;
 		padding: 1.5em .5em 1.5em .5em;
 		margin-top: 0;
 		font-weight: 900;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: .9rem;
+		font-size: 1.33rem;
+		font-family: 'Raleway', sans-serif;
+		text-decoration: none;
+		color: #FFF;
 	}
 
 	[class^=col-]:first-child {
@@ -91,13 +98,20 @@ footer:after {
 		padding-right: 0;
 	}
 
+	[class^=col-]:a {
+		text-decoration: none;
+		color: #FFF;
+	}
+
 	.col-3 {
-		width: 70%;
+		width: 50%;
+		text-align: center;
 	}
 
 	.col-1 {
-		width: 15%;
-	
+		width: 25%;
+		padding-top: 3em;
+		text-decoration: none;
 	}
 }
 
@@ -142,7 +156,21 @@ p:last-of-type {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	text-decoration: none;
+	color: #FFF;
 }
+
+.unstyled-list a { /*what makes the links in the "like
+"/footer section white, and not the ugly purple hyperlink*/
+	text-decoration: none;
+	color: #FFF;
+}
+
+.unstyled-list a:hover, /*changes color of links when you hover over it*/
+.unstyled-list a:focus {
+	color: #E56A54;
+}
+
 
 @media (min-width: 60rem) {
 	p {
@@ -157,6 +185,7 @@ p:last-of-type {
 /* buttons */
 .button {
 	display: inline-block;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.25rem;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -224,8 +253,7 @@ header {
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin: 1em 1em;
-
+	margin: 3em 1em;
 }
 
 nav ul {
@@ -243,15 +271,18 @@ nav a {
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: .8rem;
-	padding: .5em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	padding: .5em .5em .5em .5em;
 	/*background: #EDA29F; /*makes clickable area larger*/
 	color: #FFF;
 }
 
-nav a:hover, /*changes color when you hover over it*/
-nav a:focus {
-	color: #DDD;
+nav a:hover, /*changes color of navigation when you hover over it*/
+nav a:focus,
+nav Link:hover,
+nav Link:focus {
+	color: #E56A54;
 }
 
 @media (min-width: 60rem) {
@@ -275,7 +306,6 @@ nav a:focus {
 .navi {
 	display: inline-block;
 	margin: 1em;
-	background: #EDA29F;
 }
 
 .logo {
@@ -304,7 +334,7 @@ nav a:focus {
 /* home-hero
 ************************* */
 
-.home-about-textbox {
+.home-about-textbox { /*overall box adjustments*/
 	background-color: #E56A54;
 	padding: 4em;
 	width: 100vw;
@@ -315,7 +345,7 @@ nav a:focus {
 	position: relative;
 }
 
-.home-about-textbox h1 {
+.home-about-textbox h1 { /*Just the word welcome*/
 	color: #FFF;
 	position: absolute;
 	left: 50%;
@@ -346,17 +376,17 @@ nav a:focus {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		padding-bottom: 4em;
+		padding-bottom: 5em;
 	}
 
 	/* how to adjust where the box is as a whole when the screen is large
 	*/
 	.home-about-textbox {
-		width: 50%;
+		width: 40%;
 		padding: 7em;
 		outline-offset: -3.75em;
 		margin-left: 3.5%;
-		top: -5em;
+		top: -5em; /*up and down of box*/
 		text-align: left;
 		box-shadow: 0 0 3em 0 rgba(0, 0, 0, .3);
 	}
@@ -496,7 +526,7 @@ input[type=text],input[type=email], select, textarea {
 	color: white;
 	background: rgba(0, 0, 0, .6);
 	padding: 1em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 .port-desc p {
@@ -615,4 +645,8 @@ footer {
 	font-size: 18px;
 	line-height: 30px;
 	text-align: justify;
+}
+
+.bottom-logo {
+	text-align: left;
 }
