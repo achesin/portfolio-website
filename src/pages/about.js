@@ -16,7 +16,6 @@ const SecondPage = () => (
         <p>More than a year later, I've photographed over 20 shows between Arizona and NYC and have delved into the world of portrait photography with many of Broadway's rising stars</p>
         <p>Let's shoot together! Fill out the contact form or message me on Instagram and let's set something up!</p>
       </div>
-      <img src={require('../images/amandaAbout.jpg')} class="self-portrait" alt="Amanda in Utah"></img>
     </section>
     </div>
   <Footer/>
