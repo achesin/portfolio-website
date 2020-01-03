@@ -8,7 +8,7 @@ export default() => (
 				<h1>WELCOME</h1>
 				<p>Hey there, I'm Amanda! By day, I'm a computer programmer in NYC and by night I capture the sound of the city. This website is not only a way to showcase my photography, but also a way to work on my programming skills (I coded the site!).</p>
 				<p><strong>Ready to capture the sound of your life?</strong> Let's make it happen. Hit me up for a session or a quick shoot.</p>
-				<a href="/" class="button button-accent">Schedule a Sesh!</a>
+				<a href="/contact" class="button button-accent">Schedule a Sesh!</a>
 			</div>
 		</section>
 	</div>

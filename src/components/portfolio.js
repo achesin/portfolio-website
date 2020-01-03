@@ -47,7 +47,7 @@ export default() => (
 			<img src={require("../images/fernell.jpg")} width="600" height="400" alt="Fernell at the court"></img>
 			<figcaption class="port-desc">
 				<p>Fernell Hogan</p>
-				<a href="/fernell-hogan/" class="button button-accent button-small">Full Portfolio</a>
+				<a href="/fernell-hogan/" class="button button-portfolio button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
   </div>

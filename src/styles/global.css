@@ -168,7 +168,7 @@ p:last-of-type {
 
 .unstyled-list a:hover, /*changes color of links when you hover over it*/
 .unstyled-list a:focus {
-	color: #E56A54;
+	color: #EDA29F;
 }
 
 
@@ -227,6 +227,7 @@ p:last-of-type {
 	color: #FFF;
 	background: #EDA29F;
 	border-color: #EDA29F;
+	font-size: 1.5rem;
 }
 
 .button-dark:hover,
@@ -272,7 +273,7 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	padding: .5em .5em .5em .5em;
 	/*background: #EDA29F; /*makes clickable area larger*/
 	color: #FFF;
@@ -285,7 +286,14 @@ nav Link:focus {
 	color: #E56A54;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 32rem) {
+	nav a {
+		font-size: 1.2rem;
+	}
+}
+
+
+@media (min-width: 63rem) {
 	.logo {
 		float: left;
 	}
