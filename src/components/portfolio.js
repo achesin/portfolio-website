@@ -3,11 +3,9 @@ import '../styles/global.css'
 
 export default() => (
   <div>
-    <h1></h1>
-    <div class="container">
+    <div class="just-happened">
       <img src={require("../images/justhappened.png")} width="600" height="400" alt="Lead Singer of AZ"></img>
     </div>
-    <h1></h1>
     <figure class="port-item">
 			<img src={require("../images/zona.jpg")} width="600" height="400" alt="Lead Singer of AZ"></img>
 			<figcaption class="port-desc">

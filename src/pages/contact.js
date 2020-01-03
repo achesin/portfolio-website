@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/global.css'
 import TalkingHeader from '../components/talkingheader'
 import Like from '../components/like'
+import SEO from "../components/seo"
 
  /*
  <form method="post" action="#">
@@ -24,6 +25,7 @@ import Like from '../components/like'
  */
 export default() => (
     <div>
+        <SEO title="Contact" />
         <TalkingHeader />
         <h1>Send me an email at amandarcphotog@gmail.com</h1>
         &nbsp;

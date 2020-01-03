@@ -1,12 +1,11 @@
 import React from "react"
 import SEO from "../components/seo"
 import TalkingHeader from "../components/talkingheader"
-import Footer from "../components/footer"
 import Like from "../components/like"
 
 const SecondPage = () => (
   <div class="about-me">
-    <SEO title="Page two" />
+    <SEO title="About" />
     <TalkingHeader />
     &nbsp;
     <div class="container">

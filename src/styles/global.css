@@ -227,7 +227,7 @@ p:last-of-type {
 	color: #FFF;
 	background: #EDA29F;
 	border-color: #EDA29F;
-	font-size: 1.5rem;
+	font-size: 1.35rem; /*cant go smaller than this or else the button will be on the same line as what are you waiting for???*/
 }
 
 .button-dark:hover,
@@ -318,7 +318,7 @@ nav Link:focus {
 
 .logo {
 	display: inline-block;
-	margin: 1em;
+	margin: 1em 0em;
 }
 
 .home-hero {
@@ -657,4 +657,11 @@ footer {
 
 .bottom-logo {
 	text-align: left;
+}
+
+.just-happened {
+	width: 95%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 1.3em 0;
 }

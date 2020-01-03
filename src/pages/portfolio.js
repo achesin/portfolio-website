@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 
 export default () => (
     <div>
-        <SEO title="Home" />
+        <SEO title="Portfolio" />
         <TalkingHeader />
         <div class="container">
             <h1>Portfolio page</h1>
