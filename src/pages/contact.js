@@ -27,7 +27,7 @@ export default() => (
     <div>
         <SEO title="Contact" />
         <TalkingHeader />
-        <h1>Send me an email at amandarcphotog@gmail.com</h1>
+        <h1>Send me an email at amanda@amandacphotog.com</h1>
         &nbsp;
         <Like />
     </div>

@@ -390,12 +390,12 @@ nav Link:focus {
 	/* how to adjust where the box is as a whole when the screen is large
 	*/
 	.home-about-textbox {
-		width: 40%;
+		width: 57%; /*smallest it can be so button isn't on two lines*/
 		padding: 7em;
 		outline-offset: -3.75em;
 		margin-left: 3.5%;
 		top: -5em; /*up and down of box*/
-		text-align: left;
+		/*text-align: left; */
 		box-shadow: 0 0 3em 0 rgba(0, 0, 0, .3);
 	}
 
@@ -404,6 +404,16 @@ nav Link:focus {
 		top: .75em;
 		left: 6rem;
 		transform: translateX(0);
+	}
+
+	.home-about-textbox p {
+		text-align: left;
+	}
+}
+
+@media (min-width: 83rem) { /*width for button to not be on two lines*/
+	.home-about-textbox {
+		width: 40%;
 	}
 }
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import TalkingHeader from '../components/talkingheader'
-import Footer from '../components/footer'
+/*import Footer from '../components/footer' */
+import Like from '../components/like'
 import '../styles/global.css'
 
 export default ({ data }) => {
@@ -13,7 +14,7 @@ export default ({ data }) => {
          <div class="container">
             <div class="content" dangerouslySetInnerHTML={{ __html: post.html }} />
          </div>
-         <Footer />
+         <Like />
       </div>
    )
 }

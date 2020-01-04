@@ -14,7 +14,9 @@ export default() => (
 			<a href="/contact" class="button button-dark">Schedule a sesh!</a>
 		</div>
 			<div class="col-3">
-				<img src={require("../images/ACP-Watermark.png")} width="250" height="150" alt="portfolio item" class="bottom-logo"></img>
+				<a href='#'>
+					<img src={require("../images/ACP-Watermark.png")} width="250" height="150" alt="portfolio item" class="bottom-logo"></img>
+				</a>
 			</div>
 			<div class="col-1">
 				<ul class="unstyled-list">
