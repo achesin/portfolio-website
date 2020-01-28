@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/global.css'
 import TalkingHeader from '../components/talkingheader'
-import Like from '../components/like'
+import SlimLike from '../components/slimlike'
 import SEO from "../components/seo"
 
  /*
@@ -28,7 +28,9 @@ export default() => (
         <SEO title="Contact" />
         <TalkingHeader />
         <h1>Send me an email at amanda@amandacphotog.com</h1>
+        <p>I offer multiple options for portrait sessions, and am happy to work with you to photograph your gig!</p>
+        <p>You can also find me on Instagram, @amandacphotog, but for booking, email is the best way to reach me!</p>
         &nbsp;
-        <Like />
+        <SlimLike />
     </div>
 )

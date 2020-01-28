@@ -346,9 +346,9 @@ nav Link:focus {
 	background-color: #E56A54;
 	padding: 4em;
 	width: 100vw;
-	margin-left: -2.2%;
+	margin-left: 0.01%;
 	outline: 2px solid #FFF;
-	outline-offset: -2.5em;
+	outline-offset: -2.5em; /*the white border line around the box*/
 	color: #FFF;
 	position: relative;
 }
