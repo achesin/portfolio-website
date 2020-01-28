@@ -4,19 +4,19 @@ import '../styles/global.css'
 export default() => (
   <div>
     <div class="just-happened">
-      <img src={require("../images/justhappened.png")} width="600" height="400" alt="Lead Singer of AZ"></img>
+      <img src={require("../images/justhappened.png")} width="600" height="400" alt="Just Happened"></img>
     </div>
     <figure class="port-item">
 			<img src={require("../images/zona.jpg")} width="600" height="400" alt="Lead Singer of AZ"></img>
 			<figcaption class="port-desc">
-				<p>A R I Z O N A 5.29.19</p>
+				<p>A R I Z O N A</p>
 				<a href="/arizona-band/" class="button button-portfolio button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
   <figure class="port-item">
 			<img src={require("../images/colony.jpg")} width="600" height="400" alt="Full band shot"></img>
 			<figcaption class="port-desc">
-				<p>Colony House 4.3.19</p>
+				<p>Colony House</p>
 				<a href="/colony-house/" class="button button-portfolio button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
@@ -30,14 +30,14 @@ export default() => (
   <figure class="port-item">
 			<img src={require("../images/mistah.jpg")} width="600" height="400" alt="Mandy Lee of Misterwives"></img>
 			<figcaption class="port-desc">
-				<p>Misterwives 11.12.19</p>
+				<p>Misterwives</p>
 				<a href="/misterwives/" class="button button-portfolio button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>
   <figure class="port-item">
 			<img src={require("../images/now.jpg")} width="600" height="400" alt="KC Dalager of now, now"></img>
 			<figcaption class="port-desc">
-				<p>now, now 1.29.19</p>
+				<p>now, now</p>
 				<a href="/nownow/" class="button button-portfolio button-small">Full Portfolio</a>
 			</figcaption>
 	</figure>

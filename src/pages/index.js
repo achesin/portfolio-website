@@ -9,7 +9,7 @@ import Header from '../components/header'
 
 const IndexPage = () => (
   <div>
-    <SEO title="Home" />
+    <SEO title="Amanda Chesin Photography" />
     <Header />
     <Hero />
     <About />
