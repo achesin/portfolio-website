@@ -609,16 +609,12 @@ footer {
 .article-box:hover {
 	cursor: pointer;
 }
-@media screen and (min-width: 960px) {
-	.article-box:hover {
-		box-shadow: inset 960px 0 0 0 #fff;
-   }
-}
+
 .article-box .left {
 	float: left;
 	width: 150px;
 	height: 150px;
-	background-color: #00AFD7;
+	background-color: #fff;
 }
 .article-box .right {
 	margin-left: 150px;
@@ -626,6 +622,11 @@ footer {
 	color: #00AFD7;
 	margin-top: -20px;
 }
+
+.article-box .right h3:hover { /*when you hover over the title it turns black*/
+	color: #232323;
+}
+
 .article-box .right .date {
 	margin-top: -15px;
 	margin-bottom: 20px;
