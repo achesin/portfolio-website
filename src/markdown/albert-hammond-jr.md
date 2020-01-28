@@ -6,17 +6,20 @@ keywords: "arizona"
 ---
 
 
-#Hi there!
+#Albert Hammond, Jr.
 
-**I know what you're thinking**- this is a website! On the internet! Pretty cool right? I'm glad I've completed it and that it's up online. And that url is pretty weird huh? I'm hosting the site on surge.sh and it gives you a random url.
+I had an amazing opportunity to photograph Albert Hammond, Jr. when he stopped by Crescent Ballroom in Phoenix on March 7th, 2019. His energy was absolutely incredible in this tiny, 500-capacity room, and he ran around the crowd multiple times, really getting everyone engaged. It was such a joy to photograph- if I could photograph Albert every night, I would be happy! The first shot here is one of my all time favorites, that I took in the middle of the crowd! Here's the pics, all taken on a Canon T3i with a 50mmm f/1.8 lens. Photographed for KAMP Radio.
 
-##Instinctive Face
+![albert through the crowd](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9454.jpg)
 
-*That's what I was given* and I'm pretty happy with it. I added in agb for "Amanda's Gatsby Blog" and now I'm actually making it a blog? Who knows! Gonna leave this random lorem ipsum stuff at the bottom but thanks for reading my first post!
-##Aliqua et officia
+![full body albert](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9110.jpg)
 
-Aliqua et officia ad et dolore pariatur aute sunt ad consequat amet id. Pariatur dolor ex mollit aliquip nisi irure consectetur qui exercitation ut veniam esse. Labore duis aliquip dolore irure minim cupidatat. Veniam consequat elit esse do veniam ullamco id pariatur fugiat aliqua et deserunt. Tempor culpa eu ipsum exercitation proident. Id eiusmod amet labore duis minim veniam eiusmod cillum velit.
+![albert singing](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9115.jpg)
 
-###Proident aliqu
+![albert guitar](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9160.jpg)
 
-Proident aliqua fugiat dolor ut officia officia voluptate elit laborum minim. Officia occaecat est duis amet officia sit eu. Excepteur cupidatat sit laborum mollit aliquip. Sint incididunt dolore incididunt et. Deserunt dolor enim nulla nisi.
+![albert up close](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9043.jpg)
+
+![albert sing flair](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9182.jpg)
+
+![jumping albert](https://raw.githubusercontent.com/achesin/website-images/master/alberthammond/%40amandacphotog-030719-9015.jpg)
