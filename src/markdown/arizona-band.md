@@ -7,7 +7,7 @@ keywords: "arizona"
 
 #A R I Z O N A
 
-I was able to photograph ARIZONA at the Van Buren in Phoenix, Arizona when they headlined on April 3rd, 2019. I've become good friends with their tour manager and I am very grateful for the opportunity to have shot this show. Here's the pics, all were taken on a Canon T3i with a 50mmm f/1.8 lens.
+I was able to photograph ARIZONA at the Van Buren in Phoenix, Arizona when they headlined on April 3rd, 2019. I've become good friends with their tour manager and I am very grateful for the opportunity to have shot this show. Here's the pics, all were taken on a Canon T3i with a 50mm f/1.8 lens.
 
 
 ![purple zach](https://raw.githubusercontent.com/achesin/website-images/master/arizona/%40amandacphotog-052919-6169.jpg)
