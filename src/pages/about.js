@@ -18,7 +18,6 @@ const SecondPage = () => (
 	      <p>Participating in my first showcase at Melrose Ballroom in NYC on Wednesday, January 29th from 7-11pm with RAW Artists! Looking forward to showing my stuff!</p>
 	      <p>Photo by Chloe Hislop</p>
       </div>
-      <img src={require("../images/me.jpg")} width="500" alt="Full band shot"></img>
     </section>
     </div>
   <Like />
