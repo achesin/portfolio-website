@@ -232,7 +232,7 @@ p:last-of-type {
 
 .button-dark:hover,
 .button-dark:focus {
-	background: #232323;
+	background: #FFF;
 	color: #EDA29F;
 	border-color: #FFF;
 }
